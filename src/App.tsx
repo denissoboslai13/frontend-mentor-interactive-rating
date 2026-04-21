@@ -17,7 +17,7 @@ const keyMap = {
 
 const RatingComponent = ({ selected, setSelected, setSubmitted }) => {
   return (
-    <motion.div className='bg-radial-[at_50%_0%] from-[#222a35] to-[#171e27] flex flex-col items-start gap-6 p-6 rounded-2xl max-w-[350px] lg:max-w-[450px] lg:rounded-4xl lg:p-8'
+    <motion.div className='bg-radial-[at_50%_0%] from-[#222a35] to-[#171e27] flex flex-col items-start gap-6 p-6 rounded-2xl max-w-[350px] lg:max-w-[400px] lg:rounded-4xl lg:p-8'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -30,7 +30,7 @@ const RatingComponent = ({ selected, setSelected, setSubmitted }) => {
         <h1 className='text-white text-[1.35rem] font-bold lg:text-[1.8rem]'>
           How did we do?
         </h1>
-        <p className='text-[#959eac] text-[0.8rem] lg:text-base'>
+        <p className='text-[#959eac] text-[0.8rem] lg:text-[0.9rem]'>
           Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!
         </p>
       </div>
@@ -60,7 +60,7 @@ const RatingComponent = ({ selected, setSelected, setSubmitted }) => {
 
 const SubmittedComponent = ({ selected }) => {
   return (
-    <motion.div className='bg-radial-[at_50%_0%] from-[#222a35] to-[#171e27] flex flex-col items-center text-center gap-6 p-8 lg:p-10 rounded-2xl lg:max-w-[450px]'
+    <motion.div className='bg-radial-[at_50%_0%] from-[#222a35] to-[#171e27] flex flex-col items-center text-center gap-6 p-8 lg:p-10 rounded-2xl lg:max-w-[400px]'
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
       exit={{ opacity: 0 }}
@@ -79,7 +79,7 @@ const SubmittedComponent = ({ selected }) => {
           <h1 className='text-white text-2xl lg:text-3xl font-bold'>Thank You!</h1>
         </div>
         <div>
-          <p className='text-[#959eac] text-[0.8rem] lg:text-[1.02rem]'>
+          <p className='text-[#959eac] text-[0.8rem] lg:text-[0.88rem]'>
             We appreciate you taking the time to give a rating. If you ever need more support, don’t hesitate to get in touch!
           </p>
         </div>
